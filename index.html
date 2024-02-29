@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>Search bar</h3>
+    <form action="https://www.google.com/search" method="get">
+        <input type="search" name="q" id="searchfield" placeholder="Search" required>
+        <button type="submit">Zoek</button>
+    </form><br>
+
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contactgegevens</legend>
+            <label for="name">Uw naam: </label><br>
+            <input type="text" name="name" id="" placeholder="Uw naam hier:" required><br>
+            <label for="email">Uw emailadres: </label><br>
+            <input type="email" name="email" id="" placeholder="Uw mail hier:" required><br>
+            <label for="text">Uw vraag: </label><br>
+            <textarea name="text" placeholder="Uw vraag hier:" id="" cols="30" rows="10"></textarea><br>
+
+            <fieldset>
+                <legend>een lekker stukje fruit</legend>
+                <input type="radio" name="fruit" id="">
+                <label for="appel">Appel</label><br>
+                <input type="radio" name="fruit" id="">
+                <label for="banaan">Bannaan</label><br>
+                <input type="radio" name="fruit" id="">
+                <label for="citroen">Citroen</label><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>een lekker stukje taart</legend>
+                <label for="vlaai">Vlaai</label>
+                <input type="checkbox" name="vlaai" id=""><br>
+                <label for="sachertorte">Sachertorte</label>
+                <input type="checkbox" name="Sachertorte" id=""><br>
+                <label for="slagroom">Slagroom</label>
+                <input type="checkbox" name="Slagroom" id=""><br>
+            </fieldset><br>
+
+            <input type="submit" name="submit" value="Stuur!">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
